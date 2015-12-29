@@ -392,7 +392,7 @@ body.post-type-archive-product main .products { margin-top: 50px; }
 .owl-buttons .owl-next { position: absolute; top: 45%; right: 0; }
 .owl-buttons .owl-prev { position: absolute; top: 45%; left: 0; }
 
-#mc_embed_signup .email { color: #000; }
+#mc_embed_signup .email { color: #fff; }
 
 .white-popup {
   position: relative;
