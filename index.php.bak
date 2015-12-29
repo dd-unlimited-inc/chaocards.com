@@ -1,0 +1,131 @@
+<?php
+/**
+ * Index Page
+ * @package Creative Pop Theme
+ * @since Creative Pop Theme 0.1
+ */
+
+get_header('home');
+?>
+<main>
+<?php
+	/** Temporary pseudo code **
+	if ($welcome == 'slider') {
+		// load some 3rd party slider if welcome section is slider
+	}
+	else if ($welcome == 'video') {
+		// load video if welcome section is video
+	}
+	else {
+		// load image by default (default image if user's is not defined)
+	}
+	*/
+?>
+	<!-- Video -->
+	<!--section id="welcome" class="video">
+		<video id="video-short" class="" preload="auto" autoplay loop>
+			<source src="http://lifeaweso.me/assets/video/lifeawesome-short.mp4" type="video/mp4" />
+		</video>
+	</section-->
+
+	<section id="welcome" class="row">
+	<div class="col s12 m10 offset-m1 l8 offset-l2 xl6 offset-xl3 valign-wrapper">
+		<div class="slider valign" id="welcome-slider">
+			<ul class="slides">
+				<li>
+					<video class="" style="height:100%;" autoplay>
+						<source src="http://unfoldedmemories.com/wp-content/uploads/sites/4/2015/11/Paris-3-Edit.mp4" type="video/mp4" />
+					</video>
+				</li>
+				<li>
+					<img class="responsive-img" src="http://unfoldedmemories.com/wp-content/uploads/sites/4/2015/10/IMG_2219-3-edit.jpg">
+					<!--div class="caption center-align">
+						<h3>Ferris Wheel</h3>
+					</div-->
+				</li>
+				<li>
+					<img class="responsive-img" src="http://unfoldedmemories.com/wp-content/uploads/sites/4/2015/10/IMG_2291-2.jpg">
+					<!--div class="caption left-align">
+						<h3>Church</h3>
+					</div-->
+				</li>
+				<li>
+					<img class="responsive-img" src="http://unfoldedmemories.com/wp-content/uploads/sites/4/2015/10/IMG_2300-2.jpg">
+					<!--div class="caption right-align">
+						<h3>Ship</h3>
+					</div-->
+				</li>
+				<li>
+					<img class="responsive-img" src="http://unfoldedmemories.com/wp-content/uploads/sites/4/2015/10/IMG_2320-2.jpg">
+					<!--div class="caption right-align">
+						<h3>Ship</h3>
+					</div-->
+				</li>
+				<li>
+					<img class="responsive-img" src="http://unfoldedmemories.com/wp-content/uploads/sites/4/2015/10/IMG_2341-2.jpg">
+					<!--div class="caption right-align">
+						<h3>Ship</h3>
+					</div-->
+				</li>
+			</ul>
+			<script type="text/javascript">
+			$(document).ready(function() {
+				$('#welcome-slider').slider({
+					full_width: true,
+					height: 600
+				});
+			});
+			</script>
+		</div>
+	</div>
+	</section>
+
+	<!-- Call to action message -->
+	<!--section id="call-to-action" class="section">
+		<div class="card-panel pink accent-2 center-align">
+			<span class="white-text" style="font-size: 20px">Check out our awesome cards <a href="/shop" class="btn waves-effect waves-light">Shop Now</a></span>
+		</div>
+	</section-->
+
+	<!-- Featured Product -->
+	<!--section id="trending" class="section">
+	<?php	
+		//wc_get_template_part('woocommerce/featured-products');
+	?>	
+	</section>
+	<section id="customization" class="section">
+		<div class="row">
+			<h4 class="title center-align">Customization<span class="heading-divider"></span></h4>
+			<div class="col s12 m6 offset-m3">
+				<p class="center-align">We pride ourselves on working with our clients to provide customized pop-up art. Our customization department offers unique opportunities for you to work with our designers and paper engineers to create specialized pieces for you, your company or your customers.</p>
+				<p class="center-align"><a class="waves-effect waves-red btn-large" href="/custom-orders">Customize Your Card<i class="material-icons left">cloud</i></a></p>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col s12 m8 offset-m2">
+			<div class="col s4">
+				<div class="center promo promo-example">
+					<i class="material-icons md-36">face</i>
+					<h5 class="promo-caption">Birthdays</h5>
+					<p class="light center">Everyone has one. And during that time of year, keep coming back to celebrate each birthday with Unfolded Memories.</p>
+              			</div>
+            		</div>
+			<div class="col s4">
+				<div class="center promo promo-example">
+					<i class="material-icons md-36">favorite</i>
+					<h5 class="promo-caption">Love</h5>
+					<p class="light center">When you wanna say something to your sweetheart, don't think twice, speak your heart out with these beatiful cards from Unfolded Memories.</p>
+				</div>
+			</div>
+			<div class="col s4">
+				<div class="center promo promo-example">
+					<i class="material-icons md-36">redeem</i>
+					<h5 class="promo-caption">Holidays</h5>
+					<p class="light center">Delight your friends & family with our amazing pop up cards.</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section-->
+</main>
+<?php get_footer('home'); ?>
