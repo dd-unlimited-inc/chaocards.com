@@ -41,9 +41,8 @@ if( isset($_POST['submitted']) ) {
 			<a href="//facebook.com/UnfoldedMemories/"><i class="fa fa-1x-half fa-facebook grey-text" style="padding-left:0"></i></a>
 			<a href="//instagram.com/unfoldedmemories" title="instagram"><i class="fa fa-1x-half fa-instagram grey-text"></i></a>
 			<a href="//www.youtube.com/channel/UC6Ah5KcTKzit4UIWwrlmu3w"><i class="fa fa-1x-half fa-youtube grey-text"></i></a>
-			<a href="#" class="symbol" title="pinterest"></a>
-			<a href="#" class="symbol" title="etsy"></a-->
 			</p>
+			<p style="font-size: 0.9em;"><em>* Chào is a subsidiary of <a href="//ddunlimitedinc.com">D&D Unlimited Inc</a></em></p>
 		</div>
 		<div class="col s12 m6 right animated fadeInRight">
 			<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJXfAvX25954gRrgTtBQ6_y2s&key=AIzaSyCoY1-P5DFd3QqIHbcXeKuYDslX1A3fl18" allowfullscreen></iframe>

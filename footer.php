@@ -57,10 +57,10 @@
 <div class="footer-copyright grey darken-4">
 	<div class="container">
 		<div class="row">
-			<div class="col s12 m6 l4 offset-l2 right">
+			<div class="col s12 m3 l4 right">
 				<a class="right" href="/terms-and-conditions">Terms &amp; Conditions</a>
 			</div>
-			<div class="col s12 m6 left">
+			<div class="col s12 m9 l8 left">
 				<span class="white-text"><?php echo $theme_options['option_copyright_info']; ?></span>
 			</div>
 		</div>
