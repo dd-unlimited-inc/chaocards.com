@@ -67,43 +67,5 @@
 	</div>
 </div>
 </footer>
-<!--div id="inline-content" class="white-popup mfp-hide">
-<video preload='auto' autoplay muted><source src='/wp-content/uploads/sites/4/2015/12/popup-book-2.mp4' type='video/mp4' />Your browser does not support <code>video</code> element.</video>
-</div-->
-
-<a class="popup-youtube" id="holiday-popup" href="https://www.youtube.com/watch?v=O1de6POUOfc"></a>
-
-<script type="text/javascript">
-$(document).ready(function () {
-	snowStorm.followMouse = false;
-
-var cookie = readCookie('holiday-popup');
-if(!cookie) {
-	/*
-	$.magnificPopup.open({
-		items: {
-			src: "<video width='640' autoplay muted><source src='/wp-content/uploads/sites/4/2015/12/popup-book-2.mp4' type='video/mp4' />Your browser does not support <code>video</code> element.</video>",
-			type: "inline"
-		},
-		disableOn: 700,
-		mainClass: 'white-popup'
-	});
-	*/
-	$('.popup-youtube').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-
-        fixedContentPos: true
-    });
-    
-    $('#holiday-popup').trigger('click');
-    
-    createCookie('holiday-popup', 'opened', 4);
-}
-});
-</script>
 
 <?php get_template_part('include-bottom'); ?>

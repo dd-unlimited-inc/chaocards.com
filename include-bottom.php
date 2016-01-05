@@ -5,12 +5,40 @@
 ?>
 
 <!-- Javascript -->
+
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"7fbb2b6d0341e0c6f9166eb49","lid":"add5587531"}) })</script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+	/* Cookie Sample Code */
+	/*
+	var cookie = readCookie('holiday-popup');
+	if(!cookie) {
+		$('.popup-youtube').magnificPopup({
+        	disableOn: 700,
+        	type: 'iframe',
+        	mainClass: 'mfp-fade',
+        	removalDelay: 160,
+        	preloader: false,
+
+        	fixedContentPos: true
+    	});
+    
+    	$('#holiday-popup').trigger('click');
+    
+    	createCookie('holiday-popup', 'opened', 4);
+	}*/
+});
+</script>
+
 <script type="text/javascript">
 $(document).ready(function() {
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		$('body').addClass('mobile');
 	}
 
+	snowStorm.followMouse = false;
+	
 	$('#main-preloader').hide();
 
 	new WOW().init();
