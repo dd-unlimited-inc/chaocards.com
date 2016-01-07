@@ -6,30 +6,8 @@
 
 <!-- Javascript -->
 
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"7fbb2b6d0341e0c6f9166eb49","lid":"add5587531"}) })</script>
-
-<script type="text/javascript">
-$(document).ready(function () {
-	/* Cookie Sample Code */
-	/*
-	var cookie = readCookie('holiday-popup');
-	if(!cookie) {
-		$('.popup-youtube').magnificPopup({
-        	disableOn: 700,
-        	type: 'iframe',
-        	mainClass: 'mfp-fade',
-        	removalDelay: 160,
-        	preloader: false,
-
-        	fixedContentPos: true
-    	});
-    
-    	$('#holiday-popup').trigger('click');
-    
-    	createCookie('holiday-popup', 'opened', 4);
-	}*/
-});
-</script>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"7fbb2b6d0341e0c6f9166eb49","lid":"add5587531"}) })</script>
 
 <script type="text/javascript">
 $(document).ready(function() {
@@ -37,6 +15,14 @@ $(document).ready(function() {
 		$('body').addClass('mobile');
 	}
 
+	var subBoxOpened = readCookie('subBoxOpened');
+	var evilPopupClosed = readCookie('MCEvilPopupClosed');
+
+	if(!subBoxOpened && evilPopupClosed) {
+		createCookie('MCEvilPopupClosed', 'yes', 1);
+		createCookie('subBoxOpened', 'yes', 1);
+	}
+		
 	snowStorm.followMouse = false;
 	
 	$('#main-preloader').hide();
@@ -45,6 +31,7 @@ $(document).ready(function() {
 
 	$('.owl-buttons .owl-next').html('<i class="fa fa-chevron-right"></i>');
 	$('.owl-buttons .owl-prev').html('<i class="fa fa-chevron-left"></i>');
+
 
 	/* Initialize code */
 	$('.collapsible').collapsible({
@@ -76,8 +63,6 @@ $(document).ready(function() {
 	$('ul.tabs').tabs();
 });
 
-
-/*
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -85,7 +70,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-47199330-5', 'auto');
 ga('send', 'pageview');
-*/
+
 </script>
 </body>
 </html>
