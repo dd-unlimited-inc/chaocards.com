@@ -295,6 +295,30 @@ get_header('home');
 			</div>
 		</div>
 	</section-->
+	<section id="subscribe" class="section grey lighten-3" style="padding: 80px 0;">
+		<div class="container">
+			<h4 class="bold center">Love Our Cards?</h4>
+			<p class="center">Join our mailing list and be the first one to see our new designs!</p>
+			<div class="row" id="newsletter-signup">
+				<div id="mc_embed_signup">
+					<form action="//unfoldedmemories.us12.list-manage.com/subscribe/post?u=7fbb2b6d0341e0c6f9166eb49&amp;id=add5587531" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate col s12 m10 l8 xl6 offset-m1 offset-l2 offset-xl3" target="_blank" novalidate="">
+					<div class="row">
+    						<div id="mc_embed_signup_scroll" class="input-field col s12 m9">
+							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required="">
+							<label for="mce-EMAIL">Your email address</label>
+    					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    							<div style="position: absolute; left: -5000px;"><input type="text" name="b_7fbb2b6d0341e0c6f9166eb49_add5587531" tabindex="-1" value=""></div>
+						</div>
+						<div class="input-field col s12 m3">
+							<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">
+						</div>
+					</div>
+					</form>
+				</div>
+				<!--End mc_embed_signup-->
+			</div>
+		</div>
+	</section>
 </main>
 
 <?php get_footer(''); ?>
