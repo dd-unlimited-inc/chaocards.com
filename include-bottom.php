@@ -14,14 +14,6 @@ $(document).ready(function() {
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		$('body').addClass('mobile');
 	}
-
-	var subBoxOpened = readCookie('subBoxOpened');
-	var evilPopupClosed = readCookie('MCEvilPopupClosed');
-
-	if(!subBoxOpened && evilPopupClosed) {
-		createCookie('MCEvilPopupClosed', 'yes', 1);
-		createCookie('subBoxOpened', 'yes', 1);
-	}
 		
 	snowStorm.followMouse = false;
 	

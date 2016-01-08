@@ -87,10 +87,10 @@
 						$(this).css('background-color','rgba(0,0,0,0)');
 					});
 					*/
-					<?php //if(!is_user_logged_in()): ?>
-						$('#menu-item-880 a').text('Login/Register');
-						$('.side-nav #menu-item-880 a').text('Login/Register');
-					<?php //endif; ?>
+					<?php if(!is_user_logged_in()): ?>
+						$('#menu-item-1532 a').text('Login/Register');
+						$('.side-nav #menu-item-1532 a').text('Login/Register');
+					<?php endif; ?>
 				</script>
 			</div>
 		</nav>
