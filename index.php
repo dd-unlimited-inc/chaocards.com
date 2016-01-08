@@ -297,7 +297,7 @@ get_header('home');
 	</section-->
 	<section id="subscribe" class="section grey lighten-3" style="padding: 80px 0;">
 		<div class="container">
-			<h4 class="bold center">Love Our Cards?</h4>
+			<h4 class="bold center">Like Our Cards?</h4>
 			<p class="center">Join our mailing list and be the first one to see our new designs!</p>
 			<div class="row" id="newsletter-signup">
 				<div id="mc_embed_signup">
