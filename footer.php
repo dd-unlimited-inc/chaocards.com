@@ -16,7 +16,7 @@
 </main>
 <!-- End of bug fix -->
 <footer class="page-footer grey darken-4">
-<div class="container" style="padding: 30px; 0">
+<div class="container" style="padding: 40px; 0">
 	<div class="row center" id="social-networks">
 		<a href="//facebook.com/ChaoCards/"><i class="fa fa-2x fa-facebook-official"></i></a>
 		<a href="//instagram.com/chaocards" title="instagram"><i class="fa fa-2x fa-instagram"></i></a>
@@ -28,11 +28,14 @@
 	</div>
 </div>
 <div class="footer-copyright pink accent-2" style="height: inherit; line-height: inherit;">
-	<div class="container">
-		<p class="black-text center"><?php echo $theme_options['option_copyright_info']; ?></p>
-		<div class="row center">
+	<div class="container center">
+		<!--div class="section">
 			<a href="/terms-and-conditions">Terms &amp; Conditions</a>
-		</div>
+		</div-->
+		<p><?php echo $theme_options['option_copyright_info']; ?></p>
+		<!--div class="black-text">
+			<img class="responsive-img" id="asi-member-logo" style="height:85px" src="/wp-content/uploads/sites/4/2015/11/48102-1.png">
+		</div-->
 	</div>
 </div>
 </footer>

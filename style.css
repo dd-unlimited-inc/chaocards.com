@@ -304,7 +304,8 @@ body.archive .collapsible-header, body.archive .collapsible-body { border-bottom
 footer.page-footer { margin-top: 0; }
 footer.page-footer a { font-weight: 400; }
 #social-networks a { color: #ebe71a; }
-.footer-copyright a { color: #ca3c96;/*border-top: solid 1px #424242;*/ }
+.footer-copyright a { color: #212121;/*border-top: solid 1px #424242;*/ }
+footer.page-footer .footer-copyright { font-weight: 400; letter-spacing: 1px; line-height: 1.618; }
 
 .card .card-title { font-size: 18px; }
 
@@ -431,3 +432,4 @@ video.welcome-video {
 
 #subscribe h4 { letter-spacing: 1px; }
 #made-in h5 { letter-spacing: 2px; line-height: 1.618; font-size: 1.25em; }
+
