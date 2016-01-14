@@ -28,7 +28,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 						$count++;
 			?>
 					<article class="section">
-						<h2 class="title center-align"><?php the_title(); ?><span class="heading-divider"></span></h2>
+						<h1 class="title h2 center-align"><?php the_title(); ?><span class="heading-divider"></span></h1>
 						<section class="content">
 							<?php the_content(); ?>
 							

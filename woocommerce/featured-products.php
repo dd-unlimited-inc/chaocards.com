@@ -21,8 +21,9 @@ if($products ->have_posts()):
 				global $post;
 				$post_thumbnail_id = get_post_thumbnail_id($post->ID);
 				$image_link = wp_get_attachment_url($post_thumbnail_id); 
+				$alt_text = get_post_meta($post_thumbnail_id , '_wp_attachment_image_alt', true);
 ?>
-				<div class="item"><a href="<?php the_permalink(); ?>"><img src="<?php echo $image_link; ?>" class="responsive-img" /></a></div>
+	<div class="item"><a href="<?php the_permalink(); ?>"><img src="<?php echo $image_link; ?>" alt="<?php echo $alt_text; ?>" class="responsive-img" /></a></div>
 <?php
 			endwhile; // end of the loop. 
 ?>

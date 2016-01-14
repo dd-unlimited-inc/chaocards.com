@@ -53,6 +53,24 @@ $(document).ready(function() {
 	});
 
 	$('ul.tabs').tabs();
+
+	$('#gotofacility').click(function() {
+		$('#the-people').hide();
+		$('#the-facility').show();
+
+		$('html,body').animate({ scrollTop: $(this.hash).offset().top}, 200);
+		return false;
+		e.preventDefault();
+	});
+	
+	$('#gotopeople').click(function() {
+		$('#the-facility').hide();
+		$('#the-people').show();
+		
+		$('html,body').animate({ scrollTop: $(this.hash).offset().top}, 200);
+		return false;
+		e.preventDefault();
+	});
 });
 
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

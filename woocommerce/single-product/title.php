@@ -13,5 +13,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?>
 <div class="row">
-	<h4 itemprop="name" class="product_title entry-title center-align"><?php the_title(); ?><span class="heading-divider"></span></h4>
+	<h1 itemprop="name" class="product_title h4 entry-title center-align"><?php the_title(); ?><span class="heading-divider"></span></h1>
 </div>

@@ -15,19 +15,21 @@ function creativepop_template_loop_product_thumbnail() {
 		<?php
 			$post_thumbnail_id = get_post_thumbnail_id($post->ID);
 			$image_link = wp_get_attachment_url($post_thumbnail_id); 
+			$alt_text1 = get_post_meta($post_thumbnail_id , '_wp_attachment_image_alt', true);
 			// Get secondary image
 			$attachment_ids = $product->get_gallery_attachment_ids();
 			$secondary_image_link = wp_get_attachment_url($attachment_ids[0]);
+			$alt_text2 = get_post_meta($attachment_ids[0] , '_wp_attachment_image_alt', true);
 		//<img class="activator responsive-img" src="<?php echo $image_link; " />
 	} else { 
 		//<img class="activator responsive-img" src="http://placehold.it/350x150" />
 		$image_link = 'http://placehold.it/350x150';
 	} ?>
-		<a href="<?php the_permalink(); ?>" rel="<?php echo $product->id; ?>" class="card-image front-img waves-effect waves-block waves-light" style="height: 300px; background-image:url('<?php echo $image_link; ?>'); background-position: center; background-size: cover;">
+		<a href="<?php the_permalink(); ?>" rel="<?php echo $product->id; ?>" class="card-image front-img waves-effect waves-block waves-light animated fadeIn" style="height: 300px; background-image:url('<?php echo $image_link; ?>'); background-position: center; background-size: cover;">
 		</a>
 
 	<?php if ($secondary_image_link) { ?>
-		<a href="<?php the_permalink(); ?>" rel="<?php echo $product->id; ?>" class="card-image back-img waves-effect waves-block waves-light" style="height: 300px; background-image:url('<?php echo $secondary_image_link; ?>'); background-position: center; background-size: cover; display:none; ">
+		<a href="<?php the_permalink(); ?>" rel="<?php echo $product->id; ?>" class="card-image back-img waves-effect waves-block waves-light animated fadeIn" style="height: 300px; background-image:url('<?php echo $secondary_image_link; ?>'); background-position: center; background-size: cover; display:none; ">
 		</a>
 	<?php
 	}
