@@ -27,7 +27,7 @@ if( isset($_POST['submitted']) ) {
 
 	<div class="row">
 		<div class="col s12 m4 animated fadeInLeft">
-			<h5 class="title">Our Office</h5>
+			<h2 class="title h5">Our Office</h2>
 			<span class="full-divider"></span>
 			<h5>Chào - Unfolded Memories</h5>
 			<span>524 Mid Florida Drive, Suite 202</span>
@@ -51,10 +51,10 @@ if( isset($_POST['submitted']) ) {
 	<br/>
 	<div class="row animated fadeInUpBig">
 		<div class="col s12">
-			<h5 class="title">Send Us A Message</h5>
+			<h2 class="title h5">Send Us A Message</h2>
 			<span class="col s12 m4 full-divider"></span>
 			<br />
-			<p class="grey-text" style="font-size: 16px; line-height: 1.6;">We would love to hear from you and answer any questions you may have!</p>
+			<p style="font-size: 16px; line-height: 1.6;">Let's start a conversation! We'd love to hear from you and discover how we can help. Please use the contact form below if you have any question or request.</p>
 		</div>
 	</div>
 	<?php 

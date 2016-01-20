@@ -150,7 +150,7 @@ get_header('home');
 			<h4 class="title center-align animated pulse">Customization<span class="heading-divider"></span></h4>
 			<div class="col s12 m6 offset-m3">
 				<p class="center-align">We pride ourselves on working with our clients to provide customized pop-up art. Our customization department offers unique opportunities for you to work with our designers and paper engineers to create specialized pieces for you, your company or your customers.</p>
-				<p class="center-align"><a class="waves-effect waves-red btn-large" href="/contact">Customize Your Card<i class="fa fa-3x fa-cloud left"></i></a></p>
+				<p class="center-align"><a class="waves-effect waves-red btn-large" href="/cards/customization">Customize Your Card<i class="fa fa-3x fa-cloud left"></i></a></p>
 			</div>
 		</div>
 		<div class="row">
@@ -179,122 +179,6 @@ get_header('home');
 		</div>
 		</div>
 	</section>
-	<!--section id="subscribe-2" class="section grey lighten-3">
-		<div class="container" style="padding: 80px 0;">
-			<h4 class="center bold">Love Our Cards?</h4>
-			<p class="center">Join our mailing list and be the first one to see our new designs.</p>
-			<div class="container" id="newsletter-signup">
-				<div class="container" id="mc_embed_signup">
-					<form action="//unfoldedmemories.us12.list-manage.com/subscribe/post?u=7fbb2b6d0341e0c6f9166eb49&amp;id=add5587531" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate col s12" target="_blank" novalidate>
-					<div class="row">
-    						<div id="mc_embed_signup_scroll" class="input-field col s12 m6 l8">
-							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required>
-							<label for="mce-EMAIL">Your email address</label-->
-    					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    							<!--div style="position: absolute; left: -5000px;"><input type="text" name="b_7fbb2b6d0341e0c6f9166eb49_add5587531" tabindex="-1" value="" /></div>
-						</div>
-						<div class="input-field col s12 m6 l4">
-							<button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn z-depth-0" style="margin-top: 10px" />Sign Me Up!</button>
-						</div>
-					</div>
-					</form>
-				</div-->
-				<!--End mc_embed_signup-->
-			<!--/div>
-		</div>
-	</section-->
-	<!--section id="features" class="section">
-		<div class="row">
-		<div class="col s12 m12 l8 offset-l2">
-			<div class="row">
-				<div class="col s12 m6 right">
-					<img class="responsive-img" src="http://unfoldedmemories.com/wp-content/uploads/sites/4/2015/11/IMG_0827-small-2.jpg" />
-				</div>
-				<div class="col s12 m6 left">
-					<h4 class="black-text">Laser Cut</h4>
-					<br/>
-					<p>Lorem Ipsum</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col s12 m6">
-				</div>
-				<div class="col s12 m6">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col s12 m6">
-				</div>
-				<div class="col s12 m6">
-				</div>
-			</div>
-		</div>
-		</div>
-	</section-->
-	
-	<!--section id="show-case" class="section">
-		<div class="row"> 
-			<h4 class="title center-align">Cards for Any Occasion<span class="heading-divider"></span></h4>
-		</div>
-
-		<div class="row">
-		<div class="col s12 m12 l8 offset-l2">
-		
-		<div class="row">
-			<div class="col s12 m6 wow fadeIn" data-wow-delay="0.5s" data-wow-duration="1.5s">
-				<a href="/product-category/special-occasions/happy-birthday/" class="darken">
-					<img class="responsive-img" src="http://unfoldedmemories.com/wp-content/uploads/sites/4/2015/11/img_0679-edited.jpg" title="Birthday" alt="Birthday"/>
-					<span class="text-content">
-						<span class="text white-text">Birthday</span>
-					</span>
-				</a>
-			</div>
-			<div class="col s12 m6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1.5s">
-				<a href="/product-category/special-occasions/love/" class="darken">
-					<img class="responsive-img" src="http://unfoldedmemories.com/wp-content/uploads/sites/4/2015/10/img_1226_2.jpg" title="Love" alt="Love"/>
-					<span class="text-content">
-						<span class="white-text">Love</span>
-					</span>
-				</a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s12 m6 wow fadeIn" data-wow-delay="1.5s" data-wow-duration="1.5s">
-				<a href="http://unfoldedmemories.com/product-category/holidays/christmas/" class="darken">
-					<img class="responsive-img" src="http://unfoldedmemories.com/wp-content/uploads/sites/4/2015/10/img_0664-edited.jpg" title="Holidays" alt="Holidays"/>
-					<span class="text-content">
-						<span class=" white-text">Holidays</span>
-					</span>
-				</a>
-			</div>
-			<div class="col s12 m6 wow fadeIn" data-wow-delay="2s" data-wow-duration="1.5s">
-				<a href="http://unfoldedmemories.com/product-category/special-occasions/new-born/" class="darken">
-					<img class="responsive-img" src="http://unfoldedmemories.com/wp-content/uploads/sites/4/2015/11/img_2186-2.jpg" title="Newborn" alt="Newborn"/>
-					<span class="text-content">
-						<span class="white-text">Newborn</span>
-					</span>
-				</a>
-			</div>
-		</div>
-
-		</div>
-		</div>
-
-		<div class="row">
-			<a href="/cards">
-				<h5 class="title center-align grey-text"><em>And Many More...<i class="fa fa-arrow-right"></i></em></h4>
-			</a>
-		</div>
-	</section-->
-	<!--section id="customization" class="section grey lighten-3">
-		<div class="row wow fadeInUp">
-			<h4 class="title center-align animated pulse">Customize Your Own<span class="heading-divider"></span></h4>
-			<div class="col s12 m6 offset-m3">
-				<p class="center-align">We pride ourselves on working with our clients to provide customized pop-up art. Our customization department offers unique opportunities for you to work with our designers and paper engineers to create specialized pieces for you, your company or your customers.</p>
-				<p class="center-align"><a class="waves-effect waves-red btn-large" href="/contact">Tell Us Your Idea<i class="fa fa-3x fa-cloud left"></i></a></p>
-			</div>
-		</div>
-	</section-->
 	<section id="subscribe" class="section grey lighten-3" style="padding: 80px 0;">
 		<div class="container">
 			<h4 class="bold center">Like Our Cards?</h4>
