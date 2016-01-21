@@ -93,7 +93,7 @@ if(!function_exists('dd_enqueue_style')) {
 		wp_enqueue_style('normalize');
 		
 		// Materialize CSS
-		wp_register_style('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css');
+		wp_register_style('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css');
 		wp_register_style('materialize-icon', 'http://fonts.googleapis.com/icon?family=Material+Icons');
 		wp_register_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css');
 
@@ -128,7 +128,7 @@ if(!function_exists('dd_enqueue_scripts')) {
 		wp_register_script('jquery-2.1.4', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js');
 		wp_enqueue_script('jquery-2.1.4');
 		
-		wp_register_script('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js');
+		wp_register_script('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js');
 		wp_enqueue_script('materialize');
 		
 		wp_register_script('wow', 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js');
