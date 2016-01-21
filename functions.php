@@ -106,6 +106,10 @@ if(!function_exists('dd_enqueue_style')) {
 		wp_register_style('owl-carousel-theme', 'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css');
 		wp_enqueue_style('owl-carousel');
 		wp_enqueue_style('owl-carousel-theme');
+
+		// Social Feed
+		wp_register_style('social-feed', 'https://cdnjs.cloudflare.com/ajax/libs/social-feed/0.1.2/css/jquery.socialfeed.min.css');
+		wp_enqueue_style('social-feed');
 		
 		//Animate.css
 		wp_register_style('animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css');
@@ -135,6 +139,9 @@ if(!function_exists('dd_enqueue_scripts')) {
 
 		wp_register_script('google-recaptcha', 'https://www.google.com/recaptcha/api.js');
 		wp_enqueue_script('google-recaptcha');
+
+		wp_register_script('social-feed', 'https://cdnjs.cloudflare.com/ajax/libs/social-feed/0.1.2/js/jquery.socialfeed.min.js');
+		wp_enqueue_script('social-feed');
 		
 		wp_register_script('animateOnScroll', get_template_directory_uri() . '/js/animateOnScroll.js' );
 		wp_enqueue_script('animateOnScroll');

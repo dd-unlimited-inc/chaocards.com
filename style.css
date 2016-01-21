@@ -226,19 +226,19 @@ a.darken span.text-holder {
 	background-color: rgba(21,21,21,0.78);
 	bottom: 0;
 	display: inline-block;
-    height: 100%;
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    transition: opacity .4s ease-in-out;
-    -webkit-transition: opacity .4s ease-in-out;
-    -moz-transition: opacity .4s ease-in-out;
-    -o-transition: opacity .4s ease-in-out;
-    -ms-transition: opacity .4s ease-in-out;
-    visibility: visible;
-    overflow: hidden;
-    width: 100%;
-    z-index: 200;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	transition: opacity .4s ease-in-out;
+	-webkit-transition: opacity .4s ease-in-out;
+	-moz-transition: opacity .4s ease-in-out;
+	-o-transition: opacity .4s ease-in-out;
+	-ms-transition: opacity .4s ease-in-out;
+	visibility: visible;
+	overflow: hidden;
+	width: 100%;
+	z-index: 200;
 }
 
 a.darken span.text-outer {
@@ -301,7 +301,9 @@ a.darken:hover span.text-holder, a.darken:hover span.text-content { opacity: 1 }
 nav a.button-collapse i { color: #000; }
 
 /*.nav-wrapper li:hover { border-bottom: solid 2px #FF4081; }*/
-.navbar ul.sub-menu { display: none; }
+.nav-full{ overflow: visible; }
+.navbar ul.nav-full li { position: relative; max-width: 150px; }
+.navbar ul.sub-menu { position: absolute; display: none; width: 300px; }
 .navbar li:hover .sub-menu { display: block; }
 .navbar ul.sub-menu li { background-color: #424242; width: 100%; text-align: center; }
 .navbar ul.sub-menu li a { color: #fff; }

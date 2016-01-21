@@ -26,14 +26,14 @@ get_header('home');
 		<!--img class="full-height" id="wecome-img" src="/wp-content/uploads/sites/4/2015/12/welcome-img1.jpg"/-->
 		<div id="welcome-pattern"></div>
 		<video class="full-height" id="welcome-video" preload="auto" autoplay loop>
-			<source src="/wp-content/uploads/sites/4/2015/12/home-video.mp4" type="video/mp4" />
-			<source src="/wp-content/uploads/sites/4/2015/12/home-video.webm" type="video/webm" />
+			<source src="/wp-content/uploads/sites/4/2016/01/chao-valentine-3.mp4" type="video/mp4" />
+			<!--source src="/wp-content/uploads/sites/4/2016/01/chao-valentine-2.mp4" type="video/webm" /-->
 			Your browser does not support <code>video</code> element.
 		</video>
-		<!--div class="caption center-align">
-			<h4 class="grey-text animated fadeInLeft">Celebrate Your Memories</h4>
-			<h4 class="grey-text animated fadeInLeft">One Pop-up at a Time</h4>
-		</div-->
+		<div class="caption center-align">
+			<h4 class="red-text animated fadeInLeft">Celebrate Your Memories</h4>
+			<h4 class="red-text animated fadeInLeft">One Pop-up at a Time</h4>
+		</div>
 
 		<!--div class="slider" id="welcome-slider"-->
 			<!--div class="owl-carousel owl-theme" id="o-slider">
@@ -178,6 +178,9 @@ get_header('home');
 			</div>
 		</div>
 		</div>
+	</section>
+	<section id="social-feed" class="section">
+		<div class="social-feed-container"></div>
 	</section>
 	<section id="subscribe" class="section grey lighten-3" style="padding: 80px 0;">
 		<div class="container">

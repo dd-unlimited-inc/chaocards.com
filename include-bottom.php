@@ -53,6 +53,12 @@ $(document).ready(function() {
 	});
 
 	$('ul.tabs').tabs();
+	/*
+	$('.social-feed-container').socialfeed({
+		instagram: {
+			accounts: ['@chaocards'],
+			limit: 4,
+	 */
 
 	$('#gotofacility').click(function() {
 		$('#the-people').hide();
