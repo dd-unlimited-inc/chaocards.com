@@ -30,9 +30,10 @@ get_header('home');
 			<!--source src="/wp-content/uploads/sites/4/2016/01/chao-valentine-2.mp4" type="video/webm" /-->
 			Your browser does not support <code>video</code> element.
 		</video>
-		<div class="caption center-align">
-			<h4 class="red-text animated fadeInLeft">Celebrate Your Memories</h4>
-			<h4 class="red-text animated fadeInLeft">One Pop-up at a Time</h4>
+		<div class="caption overlay">
+			<h1 class="red-text text-darken-3 animated fadeInLeft h4">Celebrate Your Valentine</h1>
+			<h1 class="brown-text text-darken-3 animated fadeInLeft h4">One Popup at a Time</h1>
+			<a class="btn animated fadeIn" href="/product-category/special-occasions/love/">Shop Valentine Cards</a>
 		</div>
 
 		<!--div class="slider" id="welcome-slider"-->
@@ -125,10 +126,10 @@ get_header('home');
 	<section id="introduction-video" class="section wow fadeIn">
 		<div class="container">
 			<div class="row">
-				<h4 class="title center-align animated pulse">Who We Are<span class="heading-divider"></span></h4>
+				<h1 class="title center-align animated pulse h4">Who We Are<span class="heading-divider"></span></h1>
 				<div class="row">
 					<div class="col s12 m6 offset-m3">
-						<p class="center-align">Allow us to introduce you to Chao, our 3D pop-up cards! Check out this video for a brief overview of our story, process, and products. Let us help you bring great value to your company's upcoming programs.</p>
+						<p class="center-align">Allow us to introduce you to Chao, our 3D popup cards! Check out this video for a brief overview of our story, process, and products. Let us help you bring great value to your company's upcoming programs.</p>
 					</div>
 				</div>
 				<div class="row">
@@ -147,9 +148,9 @@ get_header('home');
 	</section>
 	<section id="customization" class="section">
 		<div class="row wow fadeIn">
-			<h4 class="title center-align animated pulse">Customization<span class="heading-divider"></span></h4>
+			<h1 class="title center-align animated pulse h4">Customization<span class="heading-divider"></span></h1>
 			<div class="col s12 m6 offset-m3">
-				<p class="center-align">We pride ourselves on working with our clients to provide customized pop-up art. Our customization department offers unique opportunities for you to work with our designers and paper engineers to create specialized pieces for you, your company or your customers.</p>
+				<p class="center-align">We pride ourselves on working with our clients to provide customized popup art. Our customization department offers unique opportunities for you to work with our designers and paper engineers to create specialized pieces for you, your company or your customers.</p>
 				<p class="center-align"><a class="waves-effect waves-red btn-large" href="/cards/customization">Customize Your Card<i class="fa fa-3x fa-cloud left"></i></a></p>
 			</div>
 		</div>
@@ -158,21 +159,21 @@ get_header('home');
 			<div class="col s12 m12 l4 wow fadeInLeft" data-wow-duration="1.5s">
 				<div class="center promo promo-example">
 					<i class="fa fa-2x fa-gift"></i>
-					<h5 class="promo-caption">Birthdays</h5>
-					<p class="light center">Why not celebrate another year of vitality and liveliness with a card that comes to life? Let's start the year off with some pop-up excitement from Unfolded Memories.</p>
+					<h2 class="promo-caption h5">Birthdays</h2>
+					<p class="light center">Why not celebrate another year of vitality and liveliness with a card that comes to life? Let's start the year off with some popup excitement from Unfolded Memories.</p>
               			</div>
             		</div>
 			<div class="col s12 m12 l4 wow fadeInUp" data-wow-duration="1.5s">
 				<div class="center promo promo-example">
 					<i class="fa fa-2x fa-heart"></i>
-					<h5 class="promo-caption">Love</h5>
-					<p class="light center">When you want to express your love to that special someone, don't think twice. Speak your heart out and let us help you express your feelings one pop-up at a time.</p>
+					<h2 class="promo-caption h5">Love</h2>
+					<p class="light center">When you want to express your love to that special someone, don't think twice. Speak your heart out and let us help you express your feelings one popup at a time.</p>
 				</div>
 			</div>
 			<div class="col s12 m12 l4 wow fadeInRight" data-wow-duration="1.5s">
 				<div class="center promo promo-example">
 					<i class="fa fa-2x fa-tree"></i>
-					<h5 class="promo-caption">Holidays</h5>
+					<h2 class="promo-caption h5">Holidays</h2>
 					<p class="light center">Delight your friends & family with holiday spirit that POPS!</p>
 				</div>
 			</div>
@@ -180,7 +181,7 @@ get_header('home');
 		</div>
 	</section>
 	<section id="social-feed" class="section">
-		<div class="social-feed-container"></div>
+		<div class="social-feed-container" id="instafeed"></div>
 	</section>
 	<section id="subscribe" class="section grey lighten-3" style="padding: 80px 0;">
 		<div class="container">

@@ -45,7 +45,9 @@
 		<nav class="white z-depth-0 transparent <?php // if(is_home()) { echo 'z-depth-0'; } else { echo 'z-depth-1'; } ?>">
 			<div class="nav-wrapper">
 				<!-- Logo -->
-				<a href="/" class="brand-logo <?php echo $theme_options['option_logo_position']; ?>"><img src="<?php echo esc_url($theme_options['option_logo_img']); ?>" /></a>
+				<h1 style="font-size: 1em; margin: 0; line-height: 100%;">
+					<a href="/" class="brand-logo <?php echo $theme_options['option_logo_position']; ?>"><img src="<?php echo esc_url($theme_options['option_logo_img']); ?>" alt="Chao - Unfolded Memories" /></a>
+				</h1>
 				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a>
 				<!-- Desktop Menu -->
 				<?php

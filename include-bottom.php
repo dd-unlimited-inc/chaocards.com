@@ -53,12 +53,13 @@ $(document).ready(function() {
 	});
 
 	$('ul.tabs').tabs();
-	/*
-	$('.social-feed-container').socialfeed({
-		instagram: {
-			accounts: ['@chaocards'],
-			limit: 4,
-	 */
+
+	var feed = new Instafeed({
+		get: 'user',
+		userId: 'chaocards',
+		clientId: 'a47238e69cf543929fc5bb0fc53b4eab'
+	});
+	feed.run();
 
 	$('#gotofacility').click(function() {
 		$('#the-people').hide();

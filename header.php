@@ -45,7 +45,9 @@
 		<nav class="white z-depth-0 <?php // if(is_home()) { echo 'z-depth-0'; } else { echo 'z-depth-1'; } ?>">
 			<div class="nav-wrapper">
 				<!-- Logo -->
-				<a href="/" class="brand-logo <?php echo $theme_options['option_logo_position']; ?>"><img src="/wp-content/uploads/sites/4/2015/11/New-Outlined-Chao-Logo-Black.png" /></a>
+				<h1 style="font-size: 1em; margin: 0;">
+					<a href="/" class="brand-logo <?php echo $theme_options['option_logo_position']; ?>"><img src="/wp-content/uploads/sites/4/2015/11/New-Outlined-Chao-Logo-Black.png" alt="Chao - Unfolded Memories" /></a>
+				</h1>
 				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 				<!-- Desktop Menu -->
 				<?php

@@ -27,7 +27,7 @@ Author URI: http://tdan.co/
     -o-text-rendering: optimizeLegibility;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased6
     -ms-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
@@ -296,17 +296,17 @@ a.darken:hover span.text-holder, a.darken:hover span.text-content { opacity: 1 }
 
 .header-wrapper { z-index: 998; height: 100px; }
 .header-wrapper .navbar a { color: #212121; letter-spacing: 2px; font-weight: 500; }
-.home .header-wrapper .navbar a { color: #fff; }
+.home .header-wrapper .navbar a { color: #212121; }
 .header-wrapper nav, .brand-logo img, #index-nav, nav .brand-logo { height: 100px; line-height: 100px; }
 nav a.button-collapse i { color: #000; }
 
 /*.nav-wrapper li:hover { border-bottom: solid 2px #FF4081; }*/
 .nav-full{ overflow: visible; }
 .navbar ul.nav-full li { position: relative; max-width: 150px; }
-.navbar ul.sub-menu { position: absolute; display: none; width: 300px; }
+.navbar ul.sub-menu { position: absolute; display: none; width: 200px; }
 .navbar li:hover .sub-menu { display: block; }
 .navbar ul.sub-menu li { background-color: #424242; width: 100%; text-align: center; }
-.navbar ul.sub-menu li a { color: #fff; }
+.navbar ul.sub-menu li a { color: #fff !important; }
 nav ul li { text-align: center; }
 
 /*nav ul li:hover, nav ul li.active { background-color: rgba(0,0,0,0); }
@@ -380,7 +380,7 @@ div.vertical-divider {
 
 .caption h3 { color: #212121; }
 
-.content p { font-size: 1.1em; }
+.content p { font-size: 1em; }
 .indent { text-indent: 4em; }
 
 .owl-carousel .owl-item { margin-right: 15px; }
@@ -473,3 +473,5 @@ video.welcome-video {
 #made-in h5 { letter-spacing: 2px; line-height: 1.618; font-size: 1.25em; }
 
 .breadcrumb { font-size: 0.9em; }
+
+#welcome .overlay { position: absolute; top: 25%; left: 5%; z-index: 9999; }
